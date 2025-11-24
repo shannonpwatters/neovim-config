@@ -7,7 +7,7 @@ return {
     require("nvim-treesitter.configs").setup({
       ensure_installed = { "lua", "python", "javascript", "html", "css", "markdown", "markdown_inline", "make", "terraform", "yaml"},
       highlight = { enable = true },
-      indent = { enable = false },
+      indent = { enable = true },
       auto_install = true,
     })
   end,
